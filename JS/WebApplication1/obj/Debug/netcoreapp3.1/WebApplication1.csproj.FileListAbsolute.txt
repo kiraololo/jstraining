@@ -32,3 +32,4 @@ C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.Views.p
 C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.genruntimeconfig.cache
 C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CopyComplete
 C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\TaskTwo\Index.cshtml.g.cs
+C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache

@@ -1,1 +1,56 @@
-﻿
+﻿<div>
+    <h4>
+        Функция sortedUniq
+    </h4>
+    <div class="in-cont">
+        <label for="arr_su">
+            Введите массив в формате JSON (например ["a","b","c"] или [1,2,3]):
+        </label>
+        <textarea name="arr_su" id="arr_su" class="in-inp"></textarea>
+    </div>
+    <div class="btn">
+        <button type="button" onclick="Sort('arr_su', 'su_out')">Сортировать</button>
+    </div>
+    <div class="rez-lbl">Результат:</div>
+    <div id="su_out" class="out-cont"></div>
+</div>
+
+<div>
+    <h4>
+        Функция isEqual
+    </h4>
+    <div class="in-cont">
+        <label>
+            Введите объекты в формате JSON (например ["a","b","c"] или {"key": 1, "value": "test"})
+        </label>
+        <label for="arr_eq_a">Объект A:</label>
+        <textarea name="arr_eq_a" id="arr_eq_a" class="in-inp"></textarea>
+        <label for="arr_eq_b">Объект B:</label>
+        <textarea name="arr_eq_b" id="arr_eq_b" class="in-inp"></textarea>
+    </div>
+    <div class="btn">
+        <button type="button" onclick="Equal('arr_eq_a', 'arr_eq_b', 'eq_out')">Сравнить</button>
+    </div>
+    <div class="rez-lbl">Результат:</div>
+    <div id="eq_out" class="out-cont"></div>
+</div>
+
+<div>
+    <h4>
+        Функция difference
+    </h4>
+    <div class="in-cont">
+        <label>
+            Введите массивы в формате JSON (например ["a","b","c"] или [1,2,3])
+        </label>
+        <label for="arr_diff_a">Массив A:</label>
+        <textarea name="arr_diff_a" id="arr_diff_a" class="in-inp"></textarea>
+        <label for="arr_diff_b">Массив B:</label>
+        <textarea name="arr_diff_b" id="arr_diff_b" class="in-inp"></textarea>
+    </div>
+    <div class="btn">
+        <button type="button" onclick="Diff('arr_diff_a', 'arr_diff_b', 'diff_out')">Разница</button>
+    </div>
+    <div class="rez-lbl">Результат:</div>
+    <div id="diff_out" class="out-cont"></div>
+</div>
