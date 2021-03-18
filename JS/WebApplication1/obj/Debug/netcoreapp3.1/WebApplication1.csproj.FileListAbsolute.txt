@@ -33,3 +33,4 @@ C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.genrunt
 C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csproj.CopyComplete
 C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\TaskTwo\Index.cshtml.g.cs
 C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\WebApplication1.csprojAssemblyReference.cache
+C:\JSTraining\JS\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\TaskThree\Index.cshtml.g.cs
