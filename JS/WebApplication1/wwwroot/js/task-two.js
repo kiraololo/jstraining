@@ -1,4 +1,5 @@
 ﻿function Calculator(num) {
+    //переделать на target
     if (this instanceof Calculator && !this.__previouslyConstructedByCalculator) {
         this.__previouslyConstructedByCalculator = true;
     }
@@ -12,8 +13,9 @@
     let multiArray = [];
     let divArray = [];
 
+    //Переписать под ES6
     return {
-        plus: function (plusNum) {
+        plus: function(plusNum) {
             plusArray.push(plusNum);
             return this;
         },
