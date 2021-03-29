@@ -19,8 +19,7 @@ if (!Array.prototype.random) {
     }
 }
 
-
-
+// Создание класса
 function createClass(obj) {
     function _class(args) {
         obj.constructor.call(this, args);
@@ -33,13 +32,13 @@ function createClass(obj) {
     return _class;
 }
 
+// Наследование
 function extend(childClass, parentClass) {
-    //childClass.prototype = Object.create(parentClass.prototype);
-    //childClass.prototype.constructor = childClass;
     Object.setPrototypeOf(childClass.prototype, parentClass.prototype);
     Object.setPrototypeOf(childClass, parentClass);
 }
 
+// Проверка создания классов
 const Cat = createClass({
     constructor(name) {
         this.name = name;
@@ -53,6 +52,8 @@ const Cat = createClass({
 const barsik = new Cat("Barsik");
 barsik.meow();
 
+
+// Проверка наследования
 class ParentClass {
     constructor(name) {
         this.name;
@@ -73,5 +74,4 @@ class ChildClass {
 }
 
 extend(ChildClass, ParentClass);
-
 var extended = new ChildClass("test", 12);
